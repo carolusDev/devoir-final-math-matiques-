@@ -34,7 +34,7 @@ def decr(aff, key_decr):
                     % 26) + ord('A')) for c in aff ]) 
 
 
-# Driver Code to test the above functions 
+#main code 
 def main(): 
     # declaring text and key 
     text = input("entrez votre texte : ")
@@ -58,11 +58,9 @@ def main():
 
 
 
-    # calling decryption function 
+    # start function
 
 
 
 if __name__ == '__main__': 
     main() 
-# This code is contributed by 
-# Bhushan Borole 
